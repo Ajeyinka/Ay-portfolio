@@ -236,7 +236,7 @@ z-index: 100000000000000000;
 .toggle-button .bar {
    height: 3px;
    width: 100%;
-   background-color: var(--bg-clr);
+   background-color: var(--accent-clr);
    transition: width 400ms ease-in;
    
 }
@@ -578,6 +578,7 @@ to {
     0 0/45px 45px;
     background-color: var(--bg-clr); 
     padding-bottom: 40px;
+    margin-top: 50px;
 
 }
 
@@ -680,8 +681,7 @@ to {
     .two-col-grid{
         display: flex;
         flex-direction: column;
-        padding-top: 20px;
-        gap:40px;
+        gap:20px;
     }
     
     .inline-padding{
